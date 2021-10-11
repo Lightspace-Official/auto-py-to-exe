@@ -1,19 +1,9 @@
-<h1 align="center">Auto PY to EXE</h1>
-<p align="center">A .py to .exe converter using a simple graphical interface and <a href="https://www.pyinstaller.org/">PyInstaller</a> in Python.</p>
+<h1 align="center">lX Compiler</h1>
+<p align="center">A .lxp to .exe builder using a simple graphical interface and <a href="https://www.pyinstaller.org/">PyInstaller</a> in lX.</p>
 
-<p align="center">
-    <img src="https://nitratine.net/posts/auto-py-to-exe/feature.png" alt="Empty interface">
-</p>
 
-<p align="center">
-    <a href="https://pypi.org/project/auto-py-to-exe/"><img src="https://img.shields.io/pypi/v/auto-py-to-exe.svg" alt="PyPI Version"></a>
-    <a href="https://pypi.org/project/auto-py-to-exe/"><img src="https://img.shields.io/pypi/pyversions/auto-py-to-exe.svg" alt="PyPI Supported Versions"></a>
-    <a href="https://pypi.org/project/auto-py-to-exe/"><img src="https://img.shields.io/pypi/l/auto-py-to-exe.svg" alt="License"></a>
-    <a href="https://pepy.tech/project/auto-py-to-exe"><img src="https://static.pepy.tech/badge/auto-py-to-exe/month" alt="Downloads Per Month"></a>
-    <a href="https://pyinstaller.readthedocs.io/en/stable/requirements.html"><img src="https://img.shields.io/badge/platform-windows%20%7C%20linux%20%7C%20macos-lightgrey" alt="Supported Platforms"></a>
-</p>
 
-阅读中文版的README ，点击 [这里](./README-Chinese.md)
+
 
 ## Getting Started
 
@@ -25,17 +15,17 @@
 > As of [PyInstaller 4.0](https://github.com/pyinstaller/pyinstaller/releases/tag/v4.0), Python 2.7 is no longer supported. Read "[Python 2.7 Support](#python-27-support)" below for steps on how to use this tool with Python 2.7.
 
 ### Installation and Usage
-#### Installing Via [PyPI](https://pypi.org/project/auto-py-to-exe/)
-You can install this project using PyPI:
+#### Installing Via lX Installer
+You can install this project using lX Installer:
 ```
-$ pip install auto-py-to-exe
+lx > install pkg
 ```
-Then to run it, execute the following in the terminal:
+Then:
 ```
-$ auto-py-to-exe
+lx > cd
 ```
 
-### Installing Via [GitHub](https://github.com/brentvollebregt/auto-py-to-exe)
+### Installing Via GitHub
 ```
 $ git clone https://github.com/brentvollebregt/auto-py-to-exe.git
 $ cd auto-py-to-exe
@@ -45,16 +35,6 @@ Then to run it, execute the following in the terminal:
 ```
 $ auto-py-to-exe
 ```
-
-#### Running Locally Via [Github](https://github.com/brentvollebregt/auto-py-to-exe) (no install)
-You can run this project locally by following these steps:
-1. Clone/download the [repo](https://github.com/brentvollebregt/auto-py-to-exe)
-2. Open cmd/terminal and cd into the project
-3. Execute ```python -m pip install -r requirements.txt```
-
-Now to run the application, execute ```python -m auto_py_to_exe```. A Chrome window in app mode will open with the project running inside.
-
-> Make sure you are in the directory below auto_py_to_exe (you will be after step 3) when calling `python -m auto_py_to_exe` or you will need to reference the folder auto_py_to_exe absolutely/relatively to where you currently are.
 
 ## Using the Application
 1. Select your script location (paste in or use a file explorer)
