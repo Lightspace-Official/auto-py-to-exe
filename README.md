@@ -18,23 +18,25 @@
 #### Installing Via lX Installer
 You can install this project using lX Installer:
 ```
-lx > install pkg
+install pkg
 ```
 Then:
 ```
-lx > cd
+cd
+```
+After:
+```
+compiler
+```
+And finally:
+```
+run program
+```
+Finally:
+```
+run.lxp
 ```
 
-### Installing Via GitHub
-```
-$ git clone https://github.com/brentvollebregt/auto-py-to-exe.git
-$ cd auto-py-to-exe
-$ python setup.py install
-```
-Then to run it, execute the following in the terminal:
-```
-$ auto-py-to-exe
-```
 
 ## Using the Application
 1. Select your script location (paste in or use a file explorer)
